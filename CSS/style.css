@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* CODIGO PARA QUE EL DESPLAZAMIENTO SEA MAS LIMPIO */
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TAMAÑOS PARA EL CONTENEDOR EN GENERAL */
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    width: 30%;
+    display: inline-block;
+}
+nav ul{
+    width: 60%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px ;
+    border-bottom: 1.5px solid transparent;
+    border-top: 1.5px solid transparent;
+    padding: 4px 0px;
+}
+
+nav ul li:hover{
+    border-bottom: 1.5px solid white;
+    border-top: 1.5px solid white;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#hero{
+    text-align: center;
+    padding-top: 125px;
+}
+
+#hero h2{
+    font-size: 50px;
+    color: #e8f00c;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+#hero p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#hero button{
+    background: yellow;
+    padding: 15px 40px;
+    font-size: 35px;
+    color: #9999;
+    border-radius: 10px;
+    border: 0 transparent;
+    margin: 40px;
+}
+
+#planes{
+    width: 100%;
+    background: #fff;
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+#planes .container h2{
+    font-size: 35px;
+}
+
+#planes .container p{
+    font-size: 20px;
+}
+
+#planes .container .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#planes .container .row .item-planes{
+    position: relative;
+}
+
+#planes .container .row .item-planes h2{
+    color: #e8f00c;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+#destinos{
+    width: 100%;
+    padding: 85px 0;
+    position: relative;
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+    text-align: center;
+}
+
+#destinos .container h2{
+    font-size: 35px;
+    color: #e8f00c;
+}
+
+#destinos .container .row h4{
+    font-size: 25px;
+    color: #fff;
+}
+
+#destinos .container .row{
+    display: flex;
+    padding: 35px 0;
+    justify-content: space-around;
+}
+
+/* INICIO Estilos de contacto */
+
+#contacto{
+    background: #e8f00c ;
+    text-align: center;
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+#contacto h2{
+    font-size: 50px;
+}
+
+#contacto p{
+    font-size: 25px;
+}
+
+#contacto .container .row .campo-f{
+    width: 400px;
+    padding: 8px 14px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    border: 1px solid #9999;
+}
+
+#contacto .container .row select{
+    /* CODIGO OBLIGATORIO !important*/
+    width: 430px !important;
+    color: #757575;
+}
+
+#contacto .container form button{
+    background: #898d0e;
+    color: #fff;
+    padding: 12px 60px;
+    font-size: 25px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Inicio codigo footer */
+
+footer{
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 50px 0px 80px;
+    font-size: 20px;
+}

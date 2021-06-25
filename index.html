@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website rumbo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <!-- LA IMAGEN ESTA DENTRO DE (A) PARA PODER DAR CLICK Y
+                         SE PUEDA REFRESCAR LA PAGINA -->
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <ul>
+                    <!-- LA ETIQUETA A ES UN BOTOM Y LI ES UNA LISTA ORGANIZADA -->
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <!-- EL BOTON A FUNCIONA CON LOS ID -->
+                </ul>
+            </nav>
+            <div id="hero">
+                <img src="img/brujula.png" alt="">
+                <h2>RUMBO</h2>
+                <p>EL SITIO WEB DE TURISMO IDEAL PARA TI</p>
+                <button>EMPEZAR</button>
+            </div>
+        </div>
+    </header>
+    <!-- INICIO SECCION PLANES -->
+    <div id="planes">
+        <div class="container">
+            <h2>PLANES</h2>
+            <p>En <b>RUMBO</b> tenemos los siguientes planes para ti <br>
+                Selecciona el plan que más se ajuste a la experiencia que quieras vivir
+                </p>
+                <div class="row">
+                    <div class="item-planes">
+                        <img src="./img/senderismo.png" alt="">
+                        <h2>SENDERISMO</h2>
+                        <P>5 a 8 personas<br>
+                            6 km de ruta <br>
+                            150.000 Pesos <br>
+                            Precio por persona
+                            </P>
+                    </div>
+                    <div class="item-planes">
+                        <img src="img/canotaje.png" alt="">
+                        <h2>CANOTAJE</h2>
+                        <P>5 a 8 personas<br>
+                            6 km de ruta <br>
+                            150.000 Pesos <br>
+                            Precio por persona
+                            </P>
+                    </div>
+                    <div class="item-planes">
+                        <img src="img/senderismo.png" alt="">
+                        <h2>CAMPING</h2>
+                        <P>5 a 8 personas<br>
+                            6 km de ruta <br>
+                            150.000 Pesos <br>
+                            Precio por persona
+                            </P>
+                    </div> 
+                </div>
+        </div>
+    </div>
+    <!-- INICIO DE SECCION DE DESTINOS -->
+    <div id="destinos">
+        <!-- LA SECCION CONTAINER ALMACENA TODO DENTRO DE ELLA EN 120px -->
+        <div class="container">
+            <h2>DESTINOS</h2>
+            <div class="row">
+                <div class="item-destinos">
+                    <img src="./img/cartagena.png" alt="">
+                    <h4>CARTAGENA</h4>
+                </div>
+                <div class="item-destinos">
+                    <img src="./img/barranquilla.png" alt="">
+                    <h4>BARRANQUILLA</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item-destinos">
+                    <img src="./img/llanos.png" alt="">
+                    <h4>LLANOS ORIENTALES</h4>
+                </div>
+                <div class="item-destinos">
+                    <img src="./img/laguajira.png" alt="">
+                    <h4>LA GUAJIRA</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- INICIO DE PARTE DE CONTACTOS -->
+    <div id="contacto">
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <P>
+                Comparte con nosotros tus datos de contacto y te enviaremo <br>
+                toda la informaciòn de los medios de pagos.
+            </P>
+            <form action="#">
+                <div class="row">
+                    <input class="campo-f" type="text" placeholder="Nombre:">
+                    <input class="campo-f" type="number" placeholder="Telefono:">
+                </div>
+                <div class="row">
+                    <input class="campo-f" type="email" placeholder="Email:">
+                    <select class="campo-f" name="" id="">
+                        <option value="#">Ciudad:</option>
+                        <option value="#">Chia</option>
+                        <option value="#">Cota</option>
+                        <option value="#">Cajica</option>
+                        <option value="#">Tabio</option>
+                    </select>
+                </div>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>© Todos los derechos reservados</p>
+        <p>contacto@rumbo.com</p>
+        <p>+57 3212444445</p>
+        <p>Cr 90 #93 - 20</p>
+    </footer>
+</body>
+</html>
